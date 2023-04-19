@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.errorInput {
+  border: 1px solid #ff0000;
+}
+
+p {
+  color: #ff0000;
+}
